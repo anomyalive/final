@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Will You Be My Valentine? 💖</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin: 0;
+    }
+
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      max-width: 350px;
+    }
+
+    h1 {
+      color: #ff4d6d;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    button {
+      padding: 12px 20px;
+      margin: 10px;
+      border: none;
+      border-radius: 30px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .yes {
+      background: #ff4d6d;
+      color: white;
+    }
+
+    .no {
+      background: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Hey Abena Asare Gyabaah 💕</h1>
+    <h5>I know we've been through a lot and yet we are still together, one hell of a ride</h5>
+    <h5>But here we are again to spend  another year together, and also in a month of love </h5>
+    <h5>I'm sad im not with you right now😔 but i will make it up to you dont worry</h5>
+    <h2><p>Will you be my Valentine This Saturday?🥺🌹</p></h2>
+
+    <button class="yes" onclick="yesClicked()">Yes 💖</button>
+    <button class="no" onclick="noClicked()">No 🤨</button>
+  </div>
+
+  <script>
+    // YES BUTTON: redirect to another page
+    function yesClicked() {
+      window.location.href = "anotherpage.html"; // make sure you create this file
+    }
+
+
+function noClicked() {
+  alert("Eh no sen? 😢 go back and choose again oo🤣");
+}
+</script>
+
+</body>
+</html>
