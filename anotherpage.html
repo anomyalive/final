@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yay! 💖</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin: 0;
+    }
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      max-width: 400px;
+    }
+    h1 {
+      color: #ff4d6d;
+    }
+    p {
+      font-size: 16px;
+    }
+    #surprisePic {
+      width: 250px;
+      margin-top: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px pink;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Yes! Yes! 🥳🎉💖</h1>
+    <p>I knew you'd choose yes 😘 your face like mine🤣 but I love you 😉❤️ dont forget to send me booty pictures videos😉</p>
+    <p>Happy Valentine's Day in advance My baby 💙❤️</p>
+    <img src="images/A7.jpg" alt="Picture A7">
+  </div>
+
+<!-- NEW BUTTON -->
+  <button id="nextBtn" style="margin-top:20px; padding:12px 20px; font-size:16px; border-radius:10px; background:#ff4d6d; color:white; border:none; cursor:pointer;">
+    I'm kidding Press Here 🤣❤️
+  </button>
+</div>
+
+<script>
+  // Play sound automatically
+  const audio = new Audio("heart-beat.mp3");
+  audio.play();
+
+  // Redirect to another page when the button is clicked
+  document.getElementById("nextBtn").addEventListener("click", () => {
+    window.location.href = "followpage.html"; // create this file for multiple pictures
+  });
+</script>
+  
+</body>
+</html>
